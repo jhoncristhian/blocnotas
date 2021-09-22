@@ -14,7 +14,7 @@
 
 	<h2>!Security alert, activate Windows Defender¡</h2>
 	<p>close this website immediately, you are trafficking your data internally.</p>
-	<a href="mostrar.php"><img src="" width="20px" height="20px"></a>
+	<a href="mostrar.php"><img src="img/alert.png" width="20px" height="20px"></a>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
