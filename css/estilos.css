@@ -9,9 +9,12 @@ textarea{
   max-height: 400px;
 }
 
-#show{
+#show, #clear{
+	display: inline;
+	background-color:white;
+	border-color: white; 
   border-radius: 3px;
   width: 5px;
   height: 5px;
-  padding: 1px;
+  padding: 10px;
 }
