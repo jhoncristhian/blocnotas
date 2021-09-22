@@ -1,26 +1,20 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<title>¡Trojan virus detected alert!</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<title>¡Alerta virus troyano detectado!</title>
 </head>
 <body>
-  <h2>!ALerta de seguridad, activa Windows Defender¡</h2>
+	<form method="post" action="guardar.php">
+		<div id="time" name="tiempo"></div>
+		<textarea name="comentario"></textarea><br>
+		<input type="submit" name="register" value="start">
+	</form>
 
-  <form method="post">
-    <textarea type="symbol" id="bloc" name="text" spellcheck="false"></textarea>
-  <br>
-  <input id="save" name="register" type="submit"></input>
-  </form>
-	<?php 
-    include("lib/registrar.php");
-  ?>
-
-  <p>close this website immediately, you are trafficking your data internally.<button id="show" name="button"><img src="img/alert.png" width="22px" height="22px"></button></p>
-  <div id="tabla" class="mostrar-content">
-    <h4 id="contenido"></h4>
-  </div>
-	<script src="js/funciones.js"></script>
+	<h2>!Security alert, activate Windows Defender¡</h2>
+	<p>close this website immediately, you are trafficking your data internally.</p>
+	<a href="mostrar.php"><img src="" width="20px" height="20px"></a>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
-<footer>All rights reserved by the malware and software development corporation 2020</footer>
 </html>
